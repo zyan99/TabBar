@@ -1,4 +1,4 @@
-import styled from 'styled-components'; //样式
+import styled from 'styled-components'; //样式（npm install --save styled-components）
 
 export const TabBar = styled.div`
     width: 100%;
