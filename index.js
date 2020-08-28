@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { TabBar, TabContent, TabBarItem } from "./styled";
-import PropTypes from "prop-types";
+import PropTypes from "prop-types"; // npm install prop-types --save
 function Tab(props) {
-  const [current, setCurrent] = useState();
+  // 传入默认值
+  const [current, setCurrent] = useState(0);
   //切换事件
   const onChange = (i) => () => {
     setCurrent(i);
